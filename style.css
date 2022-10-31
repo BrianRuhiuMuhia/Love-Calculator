@@ -1,0 +1,20 @@
+.container{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    gap:1em;
+    border:solid 2px black;
+    padding:1em;
+    margin:0 auto;
+}
+.btn{
+    background-color: purple;
+    border:none;
+    height:40px;
+    color:white;
+}
+input{
+    height:50px;
+    font-size: 1.5em;
+}
