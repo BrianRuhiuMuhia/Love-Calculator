@@ -6,6 +6,7 @@ async function getData(firstName,secondName)
     const response=await fetch(`https://love-calculator.p.rapidapi.com/getPercentage?sname=${firstName}&fname=${secondName}`,{
         method:"GET",
         headers: {
+	Accept:"application/json",
             'X-RapidAPI-Key': '685155abd9mshcf702cf1a036246p1bcde8jsnfd58b8d5d7d1',
 		    'X-RapidAPI-Host': 'love-calculator.p.rapidapi.com'
         }
